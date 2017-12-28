@@ -1,5 +1,7 @@
 package com.example.xiyu_sx.videotest
 
+import android.content.Intent
+import android.content.ServiceConnection
 import android.content.pm.ActivityInfo
 import android.media.MediaPlayer
 import android.net.Uri
@@ -32,6 +34,7 @@ class VideoView : AppCompatActivity(),MediaPlayer.OnPreparedListener {
         }
 
     }
+
 
     lateinit var mediacontroller: MediaController
     override fun onCreate(savedInstanceState: Bundle?) {
