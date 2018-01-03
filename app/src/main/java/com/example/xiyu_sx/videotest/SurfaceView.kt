@@ -164,7 +164,7 @@ class SurfaceView : AppCompatActivity(),View.OnClickListener , SeekBar.OnSeekBar
     }
 
     fun netSource(){
-        val uri= Uri.parse("http://220.194.199.176/7/z/h/t/x/zhtxzqhavcpxefedqpmeujscdjwuqx/hc.yinyuetai.com/6899015D81C74332A7D4F0F81E9B8CF3.mp4?sc=a4aca31f34d67f5b")
+        val uri= Uri.parse("http://220.170.49.115/2/e/o/m/i/eomitmivacsollthkkgpqxwvhdvaps/hc.yinyuetai.com/6ABC015EB9544161E5115F3347256EF4.mp4?sc=a3a6991aefcdf88f?sc=a4aca31f34d67f5b")
         mediaPlayer.reset()
         mediaPlayer.setDataSource(this,uri)
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC)
@@ -182,7 +182,7 @@ class SurfaceView : AppCompatActivity(),View.OnClickListener , SeekBar.OnSeekBar
 
     fun me3uSource(){
         /*http://streaming.youku.com/live2play/klcd11.m3u8?auth_key=1527043875-0-0-ff81b5c5e9c04df7ab88b3f20ddba94e*/
-        val uri=Uri.parse("http://streaming.youku.com/live2play/klcd11.m3u8?auth_key=1527043875-0-0-ff81b5c5e9c04df7ab88b3f20ddba94e")
+        val uri=Uri.parse("http://220.170.49.115/2/e/o/m/i/eomitmivacsollthkkgpqxwvhdvaps/hc.yinyuetai.com/6ABC015EB9544161E5115F3347256EF4.mp4?sc=a3a6991aefcdf88f")
         mediaPlayer.reset()
         mediaPlayer.setDataSource(this,uri)
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC)
